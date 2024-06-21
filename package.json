@@ -1,0 +1,14 @@
+{
+  "name": "lab1_hw",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yasi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}

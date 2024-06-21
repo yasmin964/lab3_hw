@@ -1,0 +1,12 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled output (JavaScript files)
+*.js
+
+# Optionally, ignore other output directories (e.g., dist, build)
+dist/
+build/
+
+# Ignore TypeScript declaration files (optional)
+*.d.ts

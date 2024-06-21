@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XKCD Comic Fetcher</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="comic">
+        <div class="comic__head">
+            <div class="comic__name">
+                <h1>XKCD Comic Fetcher</h1>
+            </div>
+        <div class="comic__placeholders">
+            <form id="email-form" >
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </form>
+        </div> 
+            <div class="comic__button">
+                <button id="get-comic-btn">Get a random comic </button>
+            </div>
+            
+        </div>    
+        
+        
+    <div id="comic-container" style="display: none;">
+        <h2 id="safe_title"></h2>
+        <img id="comic-img" src="#" alt="comic-img" >
+        <p id="comic-date"></p>
+    </div>
+    </div>
+    <script type="module" src="main.ts"></script>
+    
+</body>
+</html>
