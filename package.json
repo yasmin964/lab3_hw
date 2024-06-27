@@ -2,13 +2,18 @@
   "name": "lab1_hw",
   "version": "1.0.0",
   "main": "rollup.config.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "author": "yasi",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
   }
 }
